@@ -1,0 +1,44 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --verylight: #effaff;
+  --Ice-Cold: #a0d2eb;
+
+  --Freeze-Purple: #e5eaf5;
+
+  --Medium-Purple: #d0bdf4;
+
+  --Purple-Pain: #8458b3;
+
+  --Heavy-Purple: #494d5f;
+}
+
+body {
+  margin: auto;
+
+  max-width: 1024px;
+  padding: 0 10px;
+}
+.footer {
+  background-color: var(--Purple-Pain);
+  color: var(--Freeze-Purple);
+  display: block;
+  border: 3px solid #012367;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 225px;
+}
+.title {
+  font-weight: 300;
+  font-size: 43px;
+  color: var(--Heavy-Purple);
+  text-align: center;
+}

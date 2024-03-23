@@ -1,0 +1,22 @@
+.record-list {
+  list-style: none;
+  padding: 0;
+  border: 1px solid var(--Freeze-Purple);
+  border-radius: 15px;
+}
+.record-list > li {
+  border-bottom: 1px solid var(--Purple-Pain);
+}
+.record-list > li:last-child {
+  border-bottom: none;
+}
+.placeholder{
+  height: 100px;
+  width: 100%;
+  border: 1px solid var(--Purple-Pain);
+  text-align: center;
+  line-height: 100px;
+  margin: 20px 0;
+  font-size: 20px;
+  color:var(--Purple-Pain) ;
+}
